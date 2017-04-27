@@ -2,6 +2,8 @@
 
 HTML Newsletter for LG Burg Wiedenbrück von 1989 e.V. club
 
+![tempalte preview](preview.png?raw=true "frontend")
+
 Build on: [Foundation for Emails](http://foundation.zurb.com/emails)
 
 Foundation for Emails (previously known as Ink) is a framework for creating responsive HTML emails that work in any email client &mdash; even Outlook. Our HTML/CSS components have been tested across every major email client to ensure consistency.
