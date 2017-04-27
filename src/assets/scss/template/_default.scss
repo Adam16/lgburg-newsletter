@@ -1,0 +1,100 @@
+// These are the styles to make some of the templates look extra nice.
+// Feel free to remove these styles for production!
+
+// Body Styles 
+body,
+html,
+.body {
+  background: $white !important;
+}
+
+.container.header,
+.container.footer {
+  background: $primary-color;
+}
+
+// Full Width Headers
+.header, .footer {
+  background: $primary-color;
+}
+
+.header .columns,
+.footer .columns {
+  padding-bottom: 0;
+}
+
+.header p,
+.footer p {
+  color: $white;
+  padding-top: $global-padding;
+}
+
+.header .wrapper-inner,
+.footer .wrapper-inner {
+  padding: $global-padding;
+}
+
+.header .container,
+.footer .container{
+  background: transparent;
+}
+
+.wrapper.secondary {
+  background: $light-gray;
+}
+
+.logo-name {
+  color: $white;
+  margin-bottom: inherit;
+
+  span {
+    display: block;
+    font-size: 16px;
+    white-space: nowrap;
+  }
+}
+
+a {
+  text-decoration: underline !important;
+}
+
+.top-news {
+  display: inline-block;
+  padding: 0;
+  color: $primary-color;
+  margin-top: 0;
+  margin-bottom: 0;
+
+  li {
+    display: block;
+    padding-bottom: $global-padding/2;
+
+    &:last-child {
+      padding-bottom: 0;
+    }
+  }
+}
+
+.werbung {
+  p {
+    font-size: 12px;
+    color: $dark-gray;
+  }
+}
+
+h3 {
+  text-transform: uppercase;
+
+  a {
+    text-decoration: none !important;
+  }
+}
+
+h6 {
+  font-weight: bold;
+  color: $white;
+}
+
+.footer a {
+  color: $light-gray !important;
+}
